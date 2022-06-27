@@ -16,7 +16,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     TasksComponent,
     TasksItemComponent
   ],
-  imports: [
+  imports: [ 
     BrowserModule,
     FontAwesomeModule,
     HttpClientModule

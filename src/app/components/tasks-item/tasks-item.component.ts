@@ -1,7 +1,8 @@
 import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
-import { Task } from 'src/app/task';
-import { TASKS } from 'src/app/mock-tasks';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { TASKS}  from 'src/app/mock-tasks';
+import { Task } from 'src/app/Task';
+
 @Component({
   selector: 'app-tasks-item',
   templateUrl: './tasks-item.component.html',

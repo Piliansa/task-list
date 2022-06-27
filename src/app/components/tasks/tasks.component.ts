@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TaskService } from 'src/app/service/task.service';
-import { Task } from 'src/app/task';
+import { TASKS } from 'src/app/mock-tasks';
+import { Task } from 'src/app/Task';
 
 
 @Component({
@@ -26,5 +27,4 @@ export class TasksComponent implements OnInit {
       })
     })
   }
-
 }
