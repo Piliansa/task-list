@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { TASKS } from 'src/app/mock-tasks';
 
 @Component({
   selector: 'app-button',

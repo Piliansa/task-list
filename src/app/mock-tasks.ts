@@ -22,6 +22,12 @@ export const TASKS = [
         "id": 3,
         "text": "Leer mi Libro",
         "day": "Agosto 6 a las 14:00",
-        "reminder": false
+        "reminder": true
+    },
+    {
+        "id": 4,
+        "text": "Comprar comida a Colito",
+        "day": "lunes 52 de Junio",
+        "reminder": true
     }
 ]
